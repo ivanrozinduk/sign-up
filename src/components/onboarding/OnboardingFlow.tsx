@@ -61,7 +61,7 @@ export default function OnboardingFlow() {
           animate={{ opacity: 1, y: 0 }}
           className="bg-white rounded-xl shadow-sm p-8"
         >
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to Janovian</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Welcome to Rozin</h2>
           <p className="text-gray-600 mb-8">Let's personalize your wellness journey</p>
 
           <div className="space-y-4">

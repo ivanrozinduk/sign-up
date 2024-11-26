@@ -37,7 +37,7 @@ export default function VerifyEmail() {
         <div className="flex items-center justify-center">
           <Flame className="h-12 w-12 text-purple-600" />
           <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
-            Janovian
+            Rozin
           </span>
         </div>
 

@@ -43,7 +43,7 @@ export default function SignUp() {
           <div className="flex items-center justify-center">
             <Flame className="h-12 w-12 text-purple-600" />
             <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
-              Janovian
+              Rozin
             </span>
           </div>
 
@@ -79,7 +79,7 @@ export default function SignUp() {
         <Link to="/" className="flex items-center justify-center">
           <Flame className="h-12 w-12 text-purple-600" />
           <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-500 text-transparent bg-clip-text">
-            Janovian
+            Rozin
           </span>
         </Link>
         <h2 className="mt-6 text-center text-3xl font-bold text-gray-900">

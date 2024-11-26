@@ -100,16 +100,16 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="flex-1 lg:max-w-2xl"
+              className="flex-1 lg:max-w-xl"
             >
               <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 tracking-tight mb-6">
-                Transform your wellness journey with{' '}
+                Fitness app with{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
                   gamified experiences
                 </span>
               </h1>
               <p className="text-lg text-gray-600 mb-8">
-                Join thousands of users who have discovered a more engaging way to build healthy habits.
+                Join tens of users who have discovered a more engaging way to build healthy habits.
                 Meditation, fitness, and journaling - all in one beautifully designed platform.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -132,7 +132,7 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="flex-1 lg:max-w-xl"
+              className="flex-1 lg:max-w-xl order-first lg:order-last"
             >
               <img
                 src="/hero.svg"
@@ -286,7 +286,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Why choose Janovian?
+                Why choose Rozin?
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {benefits.map((benefit, index) => (
